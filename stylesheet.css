@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+
+}
+.container {
+    margin:20px;
+}
+
+.item {
+    width:25%;
+    float:left;
+    padding: 0px 15px;  
+}
+.item-box {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color:red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+@media (max-width:670px)
+{
+ .item{
+        width:50%;
+        
+    }
+}
+
+@media (max-width:1000px)
+{
+ .item{
+        width:100%;
+        
+    }
+}
